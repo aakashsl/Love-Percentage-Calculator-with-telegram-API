@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Love Calculator</title>
+   <link href="../static/style.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+   <nav class="navbar nav-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Love Calculator</a>
+      </div>
+    </nav>
+
+    <div class="px-4 text-center">
+      <img class="d-block mx-auto my-4" src="../static/images/heart.png" alt="" width="150" >
+      <h1 class="display-5 fw-bold text-body-emphasis fonts">Love Percentage Calculator</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Check your Love Percentage here, Enter your and your partner name below</p>
+
+        <form class="forms" action="/check" method="post">
+
+           <input type="text" class="name-input name1 col-lg-4  col-sm-4 .col-6" name="name1" placeholder="Name 1" required>
+           <span class="fonts col-lg-1 col-sm-1">Vs</span>
+           <input type="text" class="name-input name2 col-lg-4 col-sm-4 .col-6" name="name2" placeholder="Name 2" required>
+           <br>
+           <br>
+           <label for="captcha">{{captcha}}</label>
+           <input type="text" class="cap col-lg-4  col-sm-4 .col-6" name="cap" placeholder="Captcha" required>
+           <br>
+           <br>
+           <button type="submit"  class="btn col-lg-3 col-sm-5" name="check_btn" value="{{key}}" style="background-color: pink;">Check</button>
+        </form>
+      </div>
+   </div>
+   <footer>
+    <p class="text-center text-body-secondary">Designed by Aakash SL</p>
+  </footer>
+</body>
+
+
+</html>
+

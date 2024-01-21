@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculator</title>
+  <link href="../static/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar nav-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Love Calculator</a>
+    </div>
+  </nav>
+  <div class="px-4 text-center">
+    <img class="d-block mx-auto my-4" src="./images/heart.png" alt="" width="150">
+    <h1 class="display-5 fw-bold text-body-emphasis fonts">Love Percentage Calculator</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Your Love Percentage</p>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <div class="d-inline-flex gap-2 mb-5">
+        <button class="d-inline-flex align-items-center btn  btn-lg px-4 rounded-pill" style="background-color: pink;"
+          type="button">
+          {{names1}}
+        </button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" fill="pink" class="bi bi-arrow-through-heart-fill"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354zM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A24 24 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a9 9 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5z" />
+        </svg>
+        <button class="btn  btn-lg px-4 rounded-pill" style="background-color: pink;" type="button">
+          {{names2}}
+        </button>
+      </div>
+      <div class="per">
+        <h1 style="font-size: 75px;">
+          {{per}} %
+        </h1>
+        <p>{{qut}}</p>
+      </div>
+      <a href="/">
+        <button class="btn " style="background-color: rgb(216, 51, 153); color: white;">One More Time</button>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div  >
+    <p class="dis">Note* Its Just a Time based Value, Just for Fun</p>
+  </div>
+  <br>
+  <footer>
+    <p class="text-center text-body-secondary">Designed by Aakash SL</p>
+  </footer>
+</body>
+
+</html>

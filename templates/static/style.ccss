@@ -1,0 +1,42 @@
+.nav-bar {
+  background-color: #de5c9d;
+  color: #2b0a1a;
+  font-weight: 900;
+  font-family: "Satisfy", cursive;
+}
+
+.name-input {
+  background-color: #efadce;
+  color: #2b0a1a;
+  border: 1px 900 #2b0a1a;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Satisfy", cursive;
+  font-size: large;
+  text-align: center;
+}
+
+.fonts {
+  font-family: "Satisfy", cursive;
+  font-weight: bolder;
+}
+
+footer {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.per {
+  color: #610f37;
+  font-family: "Dancing Script", cursive;
+  font-family: "Satisfy", cursive;
+}
+
+.dis{
+  font-size: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
