@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 app.secret_key = '3280151'
 
-bot_token = '*********************************'
-chat_id =['*********']
+bot_token = 'YOUR_BOT_TOKEN'
+chat_id =['YOUR_CHAT_ID']
 
 @app.route('/')
 def home():
@@ -78,7 +78,7 @@ def para(a):
    elif(a<70):
       return "To love is to burn, to be on fire"
    elif(a<99):
-      return "he best thing to hold onto in life is each other"
+      return "He best thing to hold onto in life is each other"
    elif(a==100):
       return "WoW 100% your Love was very Strong"
    else:
